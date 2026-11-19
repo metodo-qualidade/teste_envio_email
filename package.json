@@ -1,0 +1,19 @@
+{
+  "name": "enviar-email-microsoft",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aplicação independente de testes de envio SMTP pelo Microsoft 365",
+  "main": "enviar-email.js",
+  "scripts": {
+    "start": "node enviar-email.js",
+    "validar": "node enviar-email.js --validar",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "nodemailer": "^10.6.0"
+  }
+}
